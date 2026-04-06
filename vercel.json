@@ -1,11 +1,11 @@
 {
-  "routes": [
+  "buildCommand": "bash build.sh",
+  "outputDirectory": "build/web",
+  "framework": null,
+  "rewrites": [
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
